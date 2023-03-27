@@ -138,3 +138,111 @@ main {
   color: var(--light-lavender);
 }
 
+/* summary section */
+
+.summary {
+  border-radius: 0 2.5rem 2.5rem 0;
+}
+
+.summary .title {
+  align-self: flex-start;
+  color: var(--dark-gray-blue);
+  padding-left: 2.4rem;
+}
+
+.metrics {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.metric {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 7rem;
+
+  max-width: 24rem;
+
+  background-color: hsl(0, 100%, 67%, 0.07);
+  padding: 1.5rem;
+  border-radius: 0.8rem;
+}
+
+.metric div {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.metric img {
+  display: inline-block;
+}
+
+.reaction {
+  background-color: hsla(0, 100%, 67%, 0.07);
+}
+
+.reaction .category {
+  color: var(--light-red);
+}
+
+.memory {
+  background-color: hsla(39, 100%, 56%, 0.07);
+}
+
+.memory .category {
+  color: var(--orange-yellow);
+}
+
+.verbal {
+  background-color: hsla(166, 100%, 37%, 0.07);
+}
+
+.verbal .category {
+  color: var(--green-teal);
+}
+
+.visual {
+  background-color: hsla(234, 85%, 45%, 0.07);
+}
+
+.visual .category {
+  color: var(--cobalt-blue);
+}
+
+.score {
+  color: var(--light-lavender);
+}
+
+.score span {
+  color: var(--dark-gray-blue);
+}
+
+button {
+  background: var(--dark-gray-blue);
+  border: 0;
+  border-radius: 2.5rem;
+  width: 26.5rem;
+  padding: 1.8rem 0;
+
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 2.5rem;
+  color: var(--white);
+  background: linear-gradient(var(--light-slate-blue), var(--light-royal-blue));
+  opacity: 0;
+  transition: opacity 0.3s linear;
+  z-index: -1;
+}
+
+button:hover::before {
+  opacity: 1;
+}
