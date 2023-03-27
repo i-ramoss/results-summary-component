@@ -18,3 +18,43 @@
   --dark-gray-blue: hsl(224, 30%, 27%);
 }
 
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "HankenGrotesk";
+  src: url(../assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+  font-weight: normal;
+}
+
+body {
+  font-family: HankenGrotesk, sans-serif;
+}
+
+h4,
+p {
+  font-size: 1.8rem;
+}
+
+h4,
+p,
+span,
+button {
+  color: var(--white);
+  font-weight: bold;
+}
+
+ol {
+  list-style: none;
+}
+
