@@ -76,6 +76,12 @@ main {
   box-shadow: 10px 10px 3rem var(--pale-blue);
 }
 
+@media only screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
 /* result & summary sections */
 
 .result,
@@ -245,4 +251,40 @@ button::before {
 
 button:hover::before {
   opacity: 1;
+}
+
+@media only screen and (max-width: 600px) {
+  .result,
+  .summary {
+    gap: 1rem;
+
+    height: 30rem;
+  }
+  .metrics {
+    gap: 1rem;
+  }
+}
+
+@media only screen and (max-height: 660px) {
+  main {
+    align-items: flex-start;
+  }
+
+  .result,
+  .summary {
+    gap: 1rem;
+
+    max-width: 27.5rem;
+    height: 24rem;
+  }
+
+  .total-container {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .total span {
+    color: var(--white);
+    font-size: 3rem;
+  }
 }
