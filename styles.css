@@ -169,8 +169,6 @@ main {
   gap: 7rem;
 
   max-width: 24rem;
-
-  background-color: hsl(0, 100%, 67%, 0.07);
   padding: 1.5rem;
   border-radius: 0.8rem;
 }
