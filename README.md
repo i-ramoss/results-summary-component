@@ -18,6 +18,8 @@
 
 This is one of the challenges designed by Frontend Mentor in order to train and test my skills and knowledge using HTML and CSS. 🔥🚀
 
+This project is a summary of certain skills that have been tested and evaluated in a person. After the evaluation, the person is classified in a punctuation that goes from 0 to 100.
+
 Users should be able to:
 
 - View the optimal layout for the interface depending on their device's screen size
@@ -27,10 +29,10 @@ Users should be able to:
 
 ![Results summary component screenshot](.github/screenshot.png)
 
-### :paperclip: Links:
+## :paperclip: Links:
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/results-summary-component-using-flexbox-HBKEjZKiho)
+- Live Site URL: [Add live site URL here](https://results-summary.ianramos.dev/)
 
 ## :rocket: Built with:
 
@@ -39,7 +41,7 @@ Users should be able to:
 - Flexbox
 - Gradient effects
 
-### :gem: What I learned:
+## :gem: What I learned:
 
 In this project I was able to learn how to work better with gradients using CSS, in addition to adding transition effects to them.
 As a way of publishing this project, I also learned how to set up my own domain and use it on GitHub Pages.
