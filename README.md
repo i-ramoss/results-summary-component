@@ -31,8 +31,8 @@ Users should be able to:
 
 ## :paperclip: Links:
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/results-summary-component-using-flexbox-HBKEjZKiho)
-- Live Site URL: [Add live site URL here](https://results-summary.ianramos.dev/)
+- Solution URL: https://www.frontendmentor.io/solutions/results-summary-component-using-flexbox-HBKEjZKiho
+- Live Site URL: https://results-summary.ianramos.dev/
 
 ## :rocket: Built with:
 
